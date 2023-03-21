@@ -167,3 +167,10 @@ section img#mountains_front
 img[src="a.jpg"] {
     width: 35%;
   }
+
+@media screen and (max-width: 600px) {
+  #sec {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
